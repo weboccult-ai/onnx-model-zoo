@@ -150,6 +150,6 @@ if __name__ == '__main__':
             color = (255,0,0)
         else:
             color = (0,0,255)
-        original_image = cv2.rectangle(original_image,(person['bbox'][0],person['bbox'][1]),(person['bbox'][2],person['bbox'][3]),color,2)
-        original_image = cv2.putText(original_image,str(person['age'])+"."+str(person['gender']),(person['bbox'][0],person['bbox'][1]),cv2.FONT_HERSHEY_COMPLEX,2,color,2)
+        original_image = cv2.rectangle(original_image,(person['bbox'][0],person['bbox'][1]),(person['bbox'][2],person['bbox'][3]),color,10)
+        original_image = cv2.putText(original_image,str(person['age'])+"."+str(person['gender']),(person['bbox'][0],person['bbox'][1]),cv2.FONT_HERSHEY_COMPLEX,3,color,10)
     cv2.imwrite('output.jpg',original_image)
