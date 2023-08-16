@@ -14,6 +14,15 @@ Whether you're optimizing model deployment, benchmarking performance, or explori
 |:-|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |[01](https://github.com/weboccult-ai/onnx-model-zoo/blob/main/MiVOLO_age_and_gender)|[MiVOLO](https://github.com/weboccult-ai/onnx-model-zoo/blob/main/MiVOLO_age_and_gender)|[🌐🌐🌐🌐🌐](https://github.com/WildChlamydia/MiVOLO/tree/main)|❌ |❌ |❌ |❌ |❌ |[Other](https://github.com/WildChlamydia/MiVOLO/blob/main/license/en_us.pdf)|
 
+##### [01 MiVOLO Age and Gender Classification](https://github.com/weboccult-ai/onnx-model-zoo/blob/main/MiVOLO_age_and_gender)
+
+```
+python inference.py
+```
+
+![<b>Output</b>](https://github.com/weboccult-ai/onnx-model-zoo/blob/main/MiVOLO_age_and_gender/output.jpg)
+
+
 
 #### 🤝 Contributing:
 We welcome contributions! Help us expand the repository by adding new models, enhancing scripts, and sharing your use cases.
