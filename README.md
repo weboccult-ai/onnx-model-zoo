@@ -28,9 +28,20 @@ python inference.py
 We welcome contributions! Help us expand the repository by adding new models, enhancing scripts, and sharing your use cases.
 
 #### 📝 License:
-This repository is licensed under the MIT License.
+This repository is licensed under the MIT License and for Model which you use please check the corresponding Licence.
 
 #### 📬 Contact:
 Have questions or suggestions? Reach out to us at [hiren@weboccult.com](mailto:hiren@weboccult.com) or connect on social media.
 
 Start accelerating your model inference today with the onnx-model-zoo Repository!
+
+
+#### Citations
+```
+@article{mivolo2023,
+   Author = {Maksim Kuprashevich and Irina Tolstykh},
+   Title = {MiVOLO: Multi-input Transformer for Age and Gender Estimation},
+   Year = {2023},
+   Eprint = {arXiv:2307.04616},
+}
+```
