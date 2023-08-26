@@ -1,0 +1,7 @@
+easydict==1.10
+numpy==1.25.2
+onnx==1.14.1
+onnxruntime==1.15.1
+opencv-python
+Requests==2.31.0
+torch==2.0.1
